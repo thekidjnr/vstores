@@ -4,7 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      "Rossans":['Rossans'],
+      "Poppins":['Poppins'],
+      "Open":['Open Sans']
+    },
+    extend: {
+      backgroundImage: {
+        'header': "url('/src/components/Header/images/Header.png')",
+      },
+      colors: {
+        'body': '#F3F3F3',
+      },
+    },
   },
   plugins: [],
 }
