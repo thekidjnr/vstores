@@ -23,5 +23,5 @@ code {
 
 /* CUSTOM CLASSES */
 .section {
-  @apply w-11/12 m-auto max-w-[1400px];
+  @apply w-11/12 mx-auto max-w-[1400px];
 }

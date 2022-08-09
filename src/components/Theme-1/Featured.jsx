@@ -37,44 +37,35 @@ const Featured = () => {
           </Link>
         </div>
       </div>
-      <main className="flex gap-28 mt-10">
-        <div className="flex flex-col gap-4">
-          <span>All</span>
-          <span>Men</span>
-          <span>Women</span>
-          <span>Children</span>
-          <span>Accessories</span>
+      <main className="flex gap-40 mt-10">
+        <div>
+          <div className="flex flex-col gap-4 items-start">
+            <button>All</button>
+            <button>Men</button>
+            <button>Women</button>
+            <button>Children</button>
+            <button>Accessories</button>
+          </div>
+          <button className="border-2 border-black w-[110px] h-10 text-lg font-semibold mt-8">
+            Show All
+          </button>
         </div>
-        <div className="grid grid-rows-1 grid-cols-3">
-          <div className="fle">
-            <div>
-              <img src={necklace} alt="" />
-              <h1>SIlver Necklace</h1>
-              <h2>GHC 26.00</h2>
-              <button>Buy Now</button>
-              <AiOutlineShoppingCart className="text-[30px]" />
-            </div>
-            <AiOutlineHeart />
-          </div>
+        <div className="grid grid-rows-1 grid-cols-3 gap-4 mr-20">
           <div className="">
-            <div>
-              <img src={necklace} alt="" />
-              <h1>SIlver Necklace</h1>
-              <h2>GHC 26.00</h2>
-              <button>Buy Now</button>
-              <AiOutlineShoppingCart className="text-[30px]" />
+            <img src={necklace} alt="" />
+            <div className="flex justify-between mt-2">
+              <div>
+                <h1 className="text-xl ">Silver Necklace</h1>
+                <h2 className="font-bold text-lg leading-3">GHC 26.00</h2>
+                <div className="flex mt-3 gap-2 items-center">
+                  <button className="bg-[#D8AA90] px-2 py-1 font-bold">
+                    Buy Now
+                  </button>
+                  <AiOutlineShoppingCart className="text-[25px]" />
+                </div>
+              </div>
+              <AiOutlineHeart className="text-[28px]" />
             </div>
-            <AiOutlineHeart />
-          </div>
-          <div className="fle">
-            <div>
-              <img src={necklace} alt="" />
-              <h1>SIlver Necklace</h1>
-              <h2>GHC 26.00</h2>
-              <button>Buy Now</button>
-              <AiOutlineShoppingCart className="text-[30px]" />
-            </div>
-            <AiOutlineHeart />
           </div>
         </div>
       </main>
