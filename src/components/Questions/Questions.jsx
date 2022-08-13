@@ -13,7 +13,7 @@ export const Questions = () => {
                     <h1 className='font-Poppins font-medium text-[30px] leading-[45px] text-center '>Frequently Asked Questions</h1>
                     <div className='w-[76px] h-[4px] bg-black'></div>
                 </div>
-                <div className='mt-[35px] bg-[#FFCE6F] '>
+                <div className='mt-[35px] pb-[35px] bg-[#FFCE6F] '>
                    <div className='ml-[49px] flex flex-col mr-[52px]'>
                    {data.map(d=>{
                         return (
