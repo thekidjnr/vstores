@@ -38,7 +38,7 @@ export const Questions = () => {
                                 <h1 className=' mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>Q:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna a, integer leo morbi facilisis ut leo. Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a, mi.</p>
                                 </h1>
-                                <AiOutlinePlusCircle onClick={handle1} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>:
+                                <AiOutlinePlusCircle onClick={handle1} fontSize={40} className=" cursor-pointer " style={{marginTop:"30px", marginLeft:"5px"}}/></div>:
                                 <div>
                                 <h1 className='flex mt-[25px]'> 
                                 <h1 className=' mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>Q:</h1>
@@ -47,7 +47,7 @@ export const Questions = () => {
                                 <h1 className='flex mt-[22px] '> 
                                 <h1 className='mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>A:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a</p>
-                                <IoIosArrowDown onClick={handle1} fontSize={40}/>
+                                <IoIosArrowDown className=" cursor-pointer " onClick={handle1} fontSize={40}/>
                                 </h1></div>}
                               
                             </div>
@@ -61,13 +61,13 @@ export const Questions = () => {
                                 <h1 className='flex mt-[22px] '> 
                                 <h1 className='mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>A:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a</p>
-                                <IoIosArrowDown onClick={handle2} fontSize={40}/>
+                                <IoIosArrowDown className=" cursor-pointer " onClick={handle2} fontSize={40}/>
                                 </h1></div>:<div className='flex'>
                                 <h1 className='flex mt-[25px]'> 
                                 <h1 className=' mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>Q:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna a, integer leo morbi facilisis ut leo. Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a, mi.</p>
                                 </h1>
-                                <AiOutlinePlusCircle onClick={handle2} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
+                                <AiOutlinePlusCircle className=" cursor-pointer " onClick={handle2} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
                               
                             </div>
 
@@ -81,13 +81,13 @@ export const Questions = () => {
                                 <h1 className='flex mt-[22px] '> 
                                 <h1 className='mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>A:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a</p>
-                                <IoIosArrowDown onClick={handle3} fontSize={40}/>
+                                <IoIosArrowDown className=" cursor-pointer " onClick={handle3} fontSize={40}/>
                                 </h1></div>:<div className='flex'>
                                 <h1 className='flex mt-[25px]'> 
                                 <h1 className=' mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>Q:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna a, integer leo morbi facilisis ut leo. Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a, mi.</p>
                                 </h1>
-                                <AiOutlinePlusCircle onClick={handle3} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
+                                <AiOutlinePlusCircle className=" cursor-pointer " onClick={handle3} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
                               
                             </div>
 
@@ -101,21 +101,14 @@ export const Questions = () => {
                                 <h1 className='flex mt-[22px] '> 
                                 <h1 className='mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>A:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a</p>
-                                <IoIosArrowDown onClick={handle4} fontSize={40}/>
+                                <IoIosArrowDown className=" cursor-pointer " onClick={handle4} fontSize={40}/>
                                 </h1></div>:<div className='flex'>
                                 <h1 className='flex mt-[25px]'> 
                                 <h1 className=' mr-[18px] font-Poppins font-semibold text-[25px] leading-[37.5px] text-black'>Q:</h1>
                                 <p className='w-[989px] font-Poppins font-normal text-[25px] leading-[37.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna a, integer leo morbi facilisis ut leo. Sapien neque fermentum dolor facilisi nulla sem. Congue viverra sed erat consectetur at a, mi.</p>
                                 </h1>
-                                <AiOutlinePlusCircle onClick={handle4} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
-                              
+                                <AiOutlinePlusCircle className=" cursor-pointer " onClick={handle4} fontSize={40} style={{marginTop:"30px", marginLeft:"5px"}}/></div>}
                             </div>
-
-
-
-
-                          
-                    
                    </div>
                 </div>
             </div>
