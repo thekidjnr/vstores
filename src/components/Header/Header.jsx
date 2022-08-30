@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const Header = () => {
   return (
@@ -19,13 +19,23 @@ export const Header = () => {
                 <div className='hover:cursor-pointer rounded-[7px] bg-white text-[#966507] font-Poppins font-normal text-[15px] leading-[22px] py-[12px] px-[22px]'>Start Selling</div>
             </div>
             </div>
+          </div>
         </div>
-        <div  style={{"textAlign":"-webkit-center"}} className='mt-[186px]'>
-            <h1 className='font-Open font-bold text-[20px] leading-[27.24px] text-white'>MONOPOLIZE YOUR ONLINE STORE</h1>
-            <h1 className='text-white font-Poppins font-semibold text-[45px] leading-[67.5px]'>Together, let’s setup your peronalized <br></br>Virtual Online Store </h1>
-            <h1 className='font-Poppins font-light text-[20px] leading-[30px] text-white'>We connect you directly to your customers</h1>
-            <div className='hover:cursor-pointer mt-[44px] w-[193px] h-[60px] bg-gradient-to-r from-white to-[#FFF6D8] rounded-[14px] py-[17px] px-[39px] font-bold font-Open text-[20px] leading-[27.24px] '>Get Started</div>
+      </div>
+      <div style={{ textAlign: "-webkit-center" }} className="mt-[186px]">
+        <h1 className="font-Open font-bold text-[20px] leading-[27.24px] text-white">
+          MONOPOLIZE YOUR ONLINE STORE
+        </h1>
+        <h1 className="text-white font-Poppins font-semibold text-[45px] leading-[67.5px]">
+          Together, let’s setup your peronalized <br></br>Virtual Online Store{" "}
+        </h1>
+        <h1 className="font-Poppins font-light text-[20px] leading-[30px] text-white">
+          We connect you directly to your customers
+        </h1>
+        <div className="hover:cursor-pointer mt-[44px] w-[193px] h-[60px] bg-gradient-to-r from-white to-[#FFF6D8] rounded-[14px] py-[17px] px-[39px] font-bold font-Open text-[20px] leading-[27.24px] ">
+          Get Started
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
