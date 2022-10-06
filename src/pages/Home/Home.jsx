@@ -1,16 +1,20 @@
-import React from 'react'
-import { Header } from '../../components/Header/Header'
-import { How } from '../../components/How/How'
-import { Questions } from '../../components/Questions/Questions'
-import { Reviews } from '../../components/Reviews/Reviews'
+import React from "react";
+import Benefits from "../../components/Home/Benefits";
+import Dashboard from "../../components/Home/Dashboard";
+import Hero from "../../components/Home/Hero";
+import Plans from "../../components/Home/Plans";
+import Setup from "../../components/Home/Setup";
+import Navbar from "../../components/Navbar";
 
 export const Home = () => {
   return (
-    <div>
-        <Header />
-        <How />
-        <Questions />
-        <Reviews/>
+    <div className="bg-[#F8FFFE]">
+      <Navbar />
+      <Hero />
+      <Benefits />
+      <Setup />
+      <Dashboard />
+      <Plans />
     </div>
-  )
-}
+  );
+};

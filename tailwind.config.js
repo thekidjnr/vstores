@@ -7,6 +7,7 @@ module.exports = {
       Poppins: ["Poppins"],
       Open: ["Open Sans"],
       Garamond: ["Eb Garamond"],
+      Nunito: ["Nunito"],
     },
     extend: {
       backgroundImage: {
@@ -14,6 +15,9 @@ module.exports = {
       },
       colors: {
         body: "#F3F3F3",
+        primary: "#2C5364",
+        secondary: "#0F2027",
+        auxiliary: "#2C5364",
       },
     },
   },
